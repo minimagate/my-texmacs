@@ -11,7 +11,8 @@
 *   text        #1e1e1e, grey #6e6e6e
 *   buttons     #e2e2e2, hover #d4d4d4, down #c6c6c6
 *   fields      #ffffff, border #c2c2c2
-*   accent      #4260B4 (selected menu item, focus, default button)
+*   accent      neutral: #d4d4d4 (selected menu item, list item, selection),
+*               #c6c6c6 (default button), focus borders #8a8a8a; text on it #1e1e1e
 *
 * Menus and tooltips are separate windows: their corners stay square, since
 * a style sheet cannot make the outside of a rounded border transparent.
@@ -164,8 +165,8 @@ QMenu::item * QToolTip {
 }
 
 QMenu::item:selected {
-    background: #4260B4;
-    color: #FFFFFF;
+    background: #d4d4d4;
+    color: #1e1e1e;
 }
 
 QMenu::item:disabled {
@@ -192,15 +193,15 @@ QLineEdit, QStatusBar QWidget QLineEdit, #focusToolBar QWidget QLineEdit, #userT
     color: #1e1e1e;
     border: 1px solid #c2c2c2;
     border-radius: 6px;
-    selection-color: #FFFFFF;
-    selection-background-color: #4260B4;
+    selection-color: #1e1e1e;
+    selection-background-color: #d4d4d4;
     min-height: 16px;
     padding: 1px 6px;
 }
 
 QLineEdit:focus, QStatusBar QWidget QLineEdit:focus, #focusToolBar QWidget QLineEdit:focus, #userToolBar QWidget QLineEdit:focus {
     background: #ffffff;
-    border: 1px solid #4260B4;
+    border: 1px solid #8a8a8a;
 }
 
 /****************************************************************************
@@ -222,15 +223,15 @@ QListView::item:hover {
 }
 
 QListView::item:selected {
-    background: #4260B4;
-    color: #FFFFFF;
+    background: #d4d4d4;
+    color: #1e1e1e;
 }
 
 QComboBox {
     background: #e2e2e2;
     color: #1e1e1e;
-    selection-background-color: #4260B4;
-    selection-color: #FFFFFF;
+    selection-background-color: #d4d4d4;
+    selection-color: #1e1e1e;
     padding: 3px 8px;
     border: 0px;
     border-radius: 6px;
@@ -246,7 +247,7 @@ QComboBox:hover {
 }
 
 QComboBox:focus {
-    border: 1px solid #4260B4;
+    border: 1px solid #8a8a8a;
 }
 
 QComboBox::drop-down {
@@ -272,8 +273,8 @@ QComboBox QAbstractItemView {
     background: #f2f2f2;
     color: #1e1e1e;
     border: 1px solid #c2c2c2;
-    selection-background-color: #4260B4;
-    selection-color: #FFFFFF;
+    selection-background-color: #d4d4d4;
+    selection-color: #1e1e1e;
 }
 
 /****************************************************************************
@@ -353,8 +354,8 @@ QPushButton:pressed {
 }
 
 QPushButton:default {
-    background: #4260B4;
-    color: #FFFFFF;
+    background: #c6c6c6;
+    color: #1e1e1e;
 }
 
 QPushButton:focus {
@@ -768,6 +769,6 @@ QToolBar#modeToolBar {
 }
 
 #my-texmacs-hit QPushButton, #my-texmacs-hit QToolButton {
-    background: #4260B4;
-    color: #FFFFFF;
+    background: #d4d4d4;
+    color: #1e1e1e;
 }

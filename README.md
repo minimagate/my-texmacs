@@ -14,7 +14,8 @@ how it came.
 ## What you get
 
 - **Dark and light interface**: matching style sheets, with neutral greys,
-  rounded buttons and fields, thin scrollbars and one blue accent (`#4260B4`).
+  rounded buttons and fields, thin scrollbars, and no colour accents: hover,
+  selection and focus are greys from the same palette.
   Each mode uses its own set of neo-classical icons.
 - **Follows macOS**: with the theme set to *Default*, TeXmacs starts dark or
   light like the rest of the system. The title bar follows it too.

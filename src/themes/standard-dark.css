@@ -10,7 +10,8 @@
 *   text        #E4E4E4, grey #8D8D8D
 *   buttons     #464646, hover #595959, down #2C2C2C
 *   fields      #262626, border #5D5D5D
-*   accent      #4260B4 (selected menu item, focus, default button)
+*   accent      neutral: #595959 (selected menu item, list item, selection),
+*               #6B6B6B (default button), focus borders #8D8D8D
 *
 * Menus and tooltips are separate windows: their corners stay square, since
 * a style sheet cannot make the outside of a rounded border transparent.
@@ -162,7 +163,7 @@ QMenu::item * QToolTip {
 }
 
 QMenu::item:selected {
-    background: #4260B4;
+    background: #595959;
     color: #FFFFFF;
 }
 
@@ -191,14 +192,14 @@ QLineEdit, QStatusBar QWidget QLineEdit, #focusToolBar QWidget QLineEdit, #userT
     border: 1px solid #5D5D5D;
     border-radius: 6px;
     selection-color: #FFFFFF;
-    selection-background-color: #4260B4;
+    selection-background-color: #595959;
     min-height: 16px;
     padding: 1px 6px;
 }
 
 QLineEdit:focus, QStatusBar QWidget QLineEdit:focus, #focusToolBar QWidget QLineEdit:focus, #userToolBar QWidget QLineEdit:focus {
     background: #2E2E2E;
-    border: 1px solid #4260B4;
+    border: 1px solid #8D8D8D;
 }
 
 /****************************************************************************
@@ -220,14 +221,14 @@ QListView::item:hover {
 }
 
 QListView::item:selected {
-    background: #4260B4;
+    background: #595959;
     color: #FFFFFF;
 }
 
 QComboBox {
     background: #464646;
     color: #E4E4E4;
-    selection-background-color: #4260B4;
+    selection-background-color: #595959;
     selection-color: #FFFFFF;
     padding: 3px 8px;
     border: 0px;
@@ -244,7 +245,7 @@ QComboBox:hover {
 }
 
 QComboBox:focus {
-    border: 1px solid #4260B4;
+    border: 1px solid #8D8D8D;
 }
 
 QComboBox::drop-down {
@@ -270,7 +271,7 @@ QComboBox QAbstractItemView {
     background: #343434;
     color: #E4E4E4;
     border: 1px solid #5D5D5D;
-    selection-background-color: #4260B4;
+    selection-background-color: #595959;
     selection-color: #FFFFFF;
 }
 
@@ -351,7 +352,7 @@ QPushButton:pressed {
 }
 
 QPushButton:default {
-    background: #4260B4;
+    background: #6B6B6B;
     color: #FFFFFF;
 }
 
@@ -766,6 +767,6 @@ QToolBar#modeToolBar {
 }
 
 #my-texmacs-hit QPushButton, #my-texmacs-hit QToolButton {
-    background: #4260B4;
+    background: #595959;
     color: #FFFFFF;
 }
