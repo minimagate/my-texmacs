@@ -1,0 +1,580 @@
+# Symbols of the my-texmacs symbol search (Cmd+K): TeXmacs symbol, label, search words
+# (lowercase). Generated from the maths menus of TeXmacs 2.1.5 and the
+# Unicode names; lines can be edited, added or removed by hand.
+<alpha>	alpha   greek small letter alpha	alpha   greek small letter alpha
+<beta>	beta   greek small letter beta	beta   greek small letter beta
+<gamma>	gamma   greek small letter gamma	gamma   greek small letter gamma
+<delta>	delta   greek small letter delta	delta   greek small letter delta
+<varepsilon>	varepsilon   greek small letter epsilon	varepsilon   greek small letter epsilon
+<epsilon>	epsilon   greek lunate epsilon symbol	epsilon   greek lunate epsilon symbol
+<zeta>	zeta   greek small letter zeta	zeta   greek small letter zeta
+<eta>	eta   greek small letter eta	eta   greek small letter eta
+<theta>	theta   greek small letter theta	theta   greek small letter theta
+<vartheta>	vartheta   greek theta symbol	vartheta   greek theta symbol
+<iota>	iota   greek small letter iota	iota   greek small letter iota
+<kappa>	kappa   greek small letter kappa	kappa   greek small letter kappa
+<lambda>	lambda   greek small letter lamda	lambda   greek small letter lamda
+<mu>	mu   greek small letter mu	mu   greek small letter mu
+<nu>	nu   greek small letter nu	nu   greek small letter nu
+<xi>	xi   greek small letter xi	xi   greek small letter xi
+<omicron>	omicron   greek small letter omicron	omicron   greek small letter omicron
+<pi>	pi   greek small letter pi	pi   greek small letter pi
+<varpi>	varpi   greek pi symbol	varpi   greek pi symbol
+<rho>	rho   greek small letter rho	rho   greek small letter rho
+<varrho>	varrho   greek rho symbol	varrho   greek rho symbol
+<sigma>	sigma   greek small letter sigma	sigma   greek small letter sigma
+<varsigma>	varsigma   greek small letter final sigma	varsigma   greek small letter final sigma
+<tau>	tau   greek small letter tau	tau   greek small letter tau
+<upsilon>	upsilon   greek small letter upsilon	upsilon   greek small letter upsilon
+<phi>	phi   greek phi symbol	phi   greek phi symbol
+<varphi>	varphi   greek small letter phi	varphi   greek small letter phi
+<chi>	chi   greek small letter chi	chi   greek small letter chi
+<psi>	psi   greek small letter psi	psi   greek small letter psi
+<omega>	omega   greek small letter omega	omega   greek small letter omega
+<Gamma>	gamma   greek capital letter gamma	gamma   greek capital letter gamma
+<Delta>	delta   greek capital letter delta	delta   greek capital letter delta
+<Theta>	theta   greek capital letter theta	theta   greek capital letter theta
+<Lambda>	lambda   greek capital letter lamda	lambda   greek capital letter lamda
+<Xi>	xi   greek capital letter xi	xi   greek capital letter xi
+<Pi>	pi   greek capital letter pi	pi   greek capital letter pi
+<Sigma>	sigma   greek capital letter sigma	sigma   greek capital letter sigma
+<Upsilon>	upsilon   greek capital letter upsilon	upsilon   greek capital letter upsilon
+<Phi>	phi   greek capital letter phi	phi   greek capital letter phi
+<Psi>	psi   greek capital letter psi	psi   greek capital letter psi
+<Omega>	omega   greek capital letter omega	omega   greek capital letter omega
+<bbb-a>	bbb a   mathematical double-struck small a	bbb a   mathbb a   mathematical double-struck small a
+<bbb-b>	bbb b   mathematical double-struck small b	bbb b   mathbb b   mathematical double-struck small b
+<bbb-c>	bbb c   mathematical double-struck small c	bbb c   mathbb c   mathematical double-struck small c
+<bbb-d>	bbb d   mathematical double-struck small d	bbb d   mathbb d   mathematical double-struck small d
+<bbb-e>	bbb e   mathematical double-struck small e	bbb e   mathbb e   mathematical double-struck small e
+<bbb-f>	bbb f   mathematical double-struck small f	bbb f   mathbb f   mathematical double-struck small f
+<bbb-g>	bbb g   mathematical double-struck small g	bbb g   mathbb g   mathematical double-struck small g
+<bbb-h>	bbb h   mathematical double-struck small h	bbb h   mathbb h   mathematical double-struck small h
+<bbb-i>	bbb i   mathematical double-struck small i	bbb i   mathbb i   mathematical double-struck small i
+<bbb-j>	bbb j   mathematical double-struck small j	bbb j   mathbb j   mathematical double-struck small j
+<bbb-k>	bbb k   mathematical double-struck small k	bbb k   mathbb k   mathematical double-struck small k
+<bbb-l>	bbb l   mathematical double-struck small l	bbb l   mathbb l   mathematical double-struck small l
+<bbb-m>	bbb m   mathematical double-struck small m	bbb m   mathbb m   mathematical double-struck small m
+<bbb-n>	bbb n   mathematical double-struck small n	bbb n   mathbb n   mathematical double-struck small n
+<bbb-o>	bbb o   mathematical double-struck small o	bbb o   mathbb o   mathematical double-struck small o
+<bbb-p>	bbb p   mathematical double-struck small p	bbb p   mathbb p   mathematical double-struck small p
+<bbb-q>	bbb q   mathematical double-struck small q	bbb q   mathbb q   mathematical double-struck small q
+<bbb-r>	bbb r   mathematical double-struck small r	bbb r   mathbb r   mathematical double-struck small r
+<bbb-s>	bbb s   mathematical double-struck small s	bbb s   mathbb s   mathematical double-struck small s
+<bbb-t>	bbb t   mathematical double-struck small t	bbb t   mathbb t   mathematical double-struck small t
+<bbb-u>	bbb u   mathematical double-struck small u	bbb u   mathbb u   mathematical double-struck small u
+<bbb-v>	bbb v   mathematical double-struck small v	bbb v   mathbb v   mathematical double-struck small v
+<bbb-w>	bbb w   mathematical double-struck small w	bbb w   mathbb w   mathematical double-struck small w
+<bbb-x>	bbb x   mathematical double-struck small x	bbb x   mathbb x   mathematical double-struck small x
+<bbb-y>	bbb y   mathematical double-struck small y	bbb y   mathbb y   mathematical double-struck small y
+<bbb-z>	bbb z   mathematical double-struck small z	bbb z   mathbb z   mathematical double-struck small z
+<bbb-A>	bbb a   mathematical double-struck capital a	bbb a   mathbb a   mathematical double-struck capital a
+<bbb-B>	bbb b   mathematical double-struck capital b	bbb b   mathbb b   mathematical double-struck capital b
+<bbb-C>	bbb c   double-struck capital c	bbb c   mathbb c   double-struck capital c   complex complessi
+<bbb-D>	bbb d   mathematical double-struck capital d	bbb d   mathbb d   mathematical double-struck capital d
+<bbb-E>	bbb e   mathematical double-struck capital e	bbb e   mathbb e   mathematical double-struck capital e
+<bbb-F>	bbb f   mathematical double-struck capital f	bbb f   mathbb f   mathematical double-struck capital f
+<bbb-G>	bbb g   mathematical double-struck capital g	bbb g   mathbb g   mathematical double-struck capital g
+<bbb-H>	bbb h   double-struck capital h	bbb h   mathbb h   double-struck capital h
+<bbb-I>	bbb i   mathematical double-struck capital i	bbb i   mathbb i   mathematical double-struck capital i
+<bbb-J>	bbb j   mathematical double-struck capital j	bbb j   mathbb j   mathematical double-struck capital j
+<bbb-K>	bbb k   mathematical double-struck capital k	bbb k   mathbb k   mathematical double-struck capital k   field campo
+<bbb-L>	bbb l   mathematical double-struck capital l	bbb l   mathbb l   mathematical double-struck capital l
+<bbb-M>	bbb m   mathematical double-struck capital m	bbb m   mathbb m   mathematical double-struck capital m
+<bbb-N>	bbb n   double-struck capital n	bbb n   mathbb n   double-struck capital n   naturals naturali
+<bbb-O>	bbb o   mathematical double-struck capital o	bbb o   mathbb o   mathematical double-struck capital o
+<bbb-P>	bbb p   double-struck capital p	bbb p   mathbb p   double-struck capital p
+<bbb-Q>	bbb q   double-struck capital q	bbb q   mathbb q   double-struck capital q   rationals razionali
+<bbb-R>	bbb r   double-struck capital r	bbb r   mathbb r   double-struck capital r   reals reali
+<bbb-S>	bbb s   mathematical double-struck capital s	bbb s   mathbb s   mathematical double-struck capital s
+<bbb-T>	bbb t   mathematical double-struck capital t	bbb t   mathbb t   mathematical double-struck capital t
+<bbb-U>	bbb u   mathematical double-struck capital u	bbb u   mathbb u   mathematical double-struck capital u
+<bbb-V>	bbb v   mathematical double-struck capital v	bbb v   mathbb v   mathematical double-struck capital v
+<bbb-W>	bbb w   mathematical double-struck capital w	bbb w   mathbb w   mathematical double-struck capital w
+<bbb-X>	bbb x   mathematical double-struck capital x	bbb x   mathbb x   mathematical double-struck capital x
+<bbb-Y>	bbb y   mathematical double-struck capital y	bbb y   mathbb y   mathematical double-struck capital y
+<bbb-Z>	bbb z   double-struck capital z	bbb z   mathbb z   double-struck capital z   integers interi
+<cal-A>	cal a   mathematical script capital a	cal a   mathcal a   mathematical script capital a
+<cal-B>	cal b   script capital b	cal b   mathcal b   script capital b
+<cal-C>	cal c   mathematical script capital c	cal c   mathcal c   mathematical script capital c
+<cal-D>	cal d   mathematical script capital d	cal d   mathcal d   mathematical script capital d
+<cal-E>	cal e   script capital e	cal e   mathcal e   script capital e
+<cal-F>	cal f   script capital f	cal f   mathcal f   script capital f
+<cal-G>	cal g   mathematical script capital g	cal g   mathcal g   mathematical script capital g
+<cal-H>	cal h   script capital h	cal h   mathcal h   script capital h
+<cal-I>	cal i   script capital i	cal i   mathcal i   script capital i
+<cal-J>	cal j   mathematical script capital j	cal j   mathcal j   mathematical script capital j
+<cal-K>	cal k   mathematical script capital k	cal k   mathcal k   mathematical script capital k
+<cal-L>	cal l   script capital l	cal l   mathcal l   script capital l
+<cal-M>	cal m   script capital m	cal m   mathcal m   script capital m
+<cal-N>	cal n   mathematical script capital n	cal n   mathcal n   mathematical script capital n
+<cal-O>	cal o   mathematical script capital o	cal o   mathcal o   mathematical script capital o
+<cal-P>	cal p   mathematical script capital p	cal p   mathcal p   mathematical script capital p
+<cal-Q>	cal q   mathematical script capital q	cal q   mathcal q   mathematical script capital q
+<cal-R>	cal r   script capital r	cal r   mathcal r   script capital r
+<cal-S>	cal s   mathematical script capital s	cal s   mathcal s   mathematical script capital s
+<cal-T>	cal t   mathematical script capital t	cal t   mathcal t   mathematical script capital t
+<cal-U>	cal u   mathematical script capital u	cal u   mathcal u   mathematical script capital u
+<cal-V>	cal v   mathematical script capital v	cal v   mathcal v   mathematical script capital v
+<cal-W>	cal w   mathematical script capital w	cal w   mathcal w   mathematical script capital w
+<cal-X>	cal x   mathematical script capital x	cal x   mathcal x   mathematical script capital x
+<cal-Y>	cal y   mathematical script capital y	cal y   mathcal y   mathematical script capital y
+<cal-Z>	cal z   mathematical script capital z	cal z   mathcal z   mathematical script capital z
+<sim>	sim   tilde operator	sim   tilde operator
+<simeq>	simeq   asymptotically equal to	simeq   asymptotically equal to   isomorphic
+<approx>	approx   almost equal to	approx   almost equal to   circa
+<cong>	cong   approximately equal to	cong   approximately equal to   isomorphic isomorfo
+<asymp>	asymp   equivalent to	asymp   equivalent to
+<equiv>	equiv   identical to	equiv   identical to   equivalent congruent
+<bumpeq>	bumpeq   difference between	bumpeq   difference between
+<Bumpeq>	bumpeq   geometrically equivalent to	bumpeq   geometrically equivalent to
+<circeq>	circeq   ring equal to	circeq   ring equal to
+<backsim>	backsim   reversed tilde	backsim   reversed tilde
+<backsimeq>	backsimeq   reversed tilde equals	backsimeq   reversed tilde equals
+<eqcirc>	eqcirc   ring in equal to	eqcirc   ring in equal to
+<approxeq>	approxeq   almost equal or equal to	approxeq   almost equal or equal to
+<triangleq>	triangleq   delta equal to	triangleq   delta equal to
+<neq>	neq   not equal to	neq   not equal to   different diverso
+<nin>	nin   not an element of	nin   not an element of   not element non appartiene
+<perp>	perp   up tack	perp   up tack   orthogonal ortogonale
+<smile>	smile   smile	smile   smile
+<frown>	frown   frown	frown   frown
+<propto>	propto   proportional to	propto   proportional to   proporzionale
+<leqslant>	leqslant   less-than or slanted equal to	leqslant   less-than or slanted equal to
+<leq>	leq   less-than or equal to	leq   less-than or equal to   minore uguale
+<leqq>	leqq   less-than over equal to	leqq   less-than over equal to
+<ll>	ll   much less-than	ll   much less-than
+<lll>	lll   very much less-than	lll   very much less-than
+<gtr>	gtr   greater-than sign	gtr   greater-than sign
+<geqslant>	geqslant   greater-than or slanted equal to	geqslant   greater-than or slanted equal to
+<geq>	geq   greater-than or equal to	geq   greater-than or equal to   maggiore uguale
+<geqq>	geqq   greater-than over equal to	geqq   greater-than over equal to
+<gg>	gg   much greater-than	gg   much greater-than
+<ggg>	ggg   very much greater-than	ggg   very much greater-than
+<prec>	prec   precedes	prec   precedes
+<preccurlyeq>	preccurlyeq   precedes or equal to	preccurlyeq   precedes or equal to
+<preceq>	preceq   precedes above single-line equals sign	preceq   precedes above single-line equals sign
+<precsim>	precsim   precedes or equivalent to	precsim   precedes or equivalent to
+<succ>	succ   succeeds	succ   succeeds
+<succcurlyeq>	succcurlyeq   succeeds or equal to	succcurlyeq   succeeds or equal to
+<succeq>	succeq   succeeds above single-line equals sign	succeq   succeeds above single-line equals sign
+<succsim>	succsim   succeeds or equivalent to	succsim   succeeds or equivalent to
+<subset>	subset   subset of	subset   subset of   sottoinsieme
+<subseteq>	subseteq   subset of or equal to	subseteq   subset of or equal to   sottoinsieme
+<subseteqq>	subseteqq   subset of above equals sign	subseteqq   subset of above equals sign
+<sqsubset>	sqsubset   square image of	sqsubset   square image of
+<sqsubseteq>	sqsubseteq   square image of or equal to	sqsubseteq   square image of or equal to
+<Subset>	subset   double subset	subset   double subset
+<in>	in   element of	in   element of   element belongs appartiene
+<supset>	supset   superset of	supset   superset of   sovrainsieme
+<supseteq>	supseteq   superset of or equal to	supseteq   superset of or equal to   sovrainsieme
+<supseteqq>	supseteqq   superset of above equals sign	supseteqq   superset of above equals sign
+<sqsupset>	sqsupset   square original of	sqsupset   square original of
+<sqsupseteq>	sqsupseteq   square original of or equal to	sqsupseteq   square original of or equal to
+<Supset>	supset   double superset	supset   double superset
+<ni>	ni   contains as member	ni   contains as member
+<vartriangleleft>	vartriangleleft   normal subgroup of	vartriangleleft   normal subgroup of
+<trianglelefteq>	trianglelefteq   normal subgroup of or equal to	trianglelefteq   normal subgroup of or equal to
+<blacktriangleleft>	blacktriangleleft   black left-pointing small triangle	blacktriangleleft   black left-pointing small triangle
+<lesssim>	lesssim   less-than or equivalent to	lesssim   less-than or equivalent to
+<lessapprox>	lessapprox   less-than or approximate	lessapprox   less-than or approximate
+<precapprox>	precapprox   precedes above almost equal to	precapprox   precedes above almost equal to
+<vartriangleright>	vartriangleright   contains as normal subgroup	vartriangleright   contains as normal subgroup
+<trianglerighteq>	trianglerighteq   contains as normal subgroup or equal to	trianglerighteq   contains as normal subgroup or equal to
+<blacktriangleright>	blacktriangleright   black right-pointing small triangle	blacktriangleright   black right-pointing small triangle
+<gtrsim>	gtrsim   greater-than or equivalent to	gtrsim   greater-than or equivalent to
+<gtrapprox>	gtrapprox   greater-than or approximate	gtrapprox   greater-than or approximate
+<succapprox>	succapprox   succeeds above almost equal to	succapprox   succeeds above almost equal to
+<oplus>	oplus   circled plus	oplus   circled plus   direct sum somma diretta
+<ominus>	ominus   circled minus	ominus   circled minus
+<otimes>	otimes   circled times	otimes   circled times   tensor
+<oslash>	oslash   circled division slash	oslash   circled division slash
+<odot>	odot   circled dot operator	odot   circled dot operator
+<varocircle>	varocircle   circled ring operator	varocircle   circled ring operator
+<circledast>	circledast   circled asterisk operator	circledast   circled asterisk operator
+<boxplus>	boxplus   squared plus	boxplus   squared plus
+<boxminus>	boxminus   squared minus	boxminus   squared minus
+<boxtimes>	boxtimes   squared times	boxtimes   squared times
+<boxslash>	boxslash   squared rising diagonal slash	boxslash   squared rising diagonal slash
+<boxdot>	boxdot   squared dot operator	boxdot   squared dot operator
+<boxbox>	boxbox   squared square	boxbox   squared square
+<boxast>	boxast   squared asterisk	boxast   squared asterisk
+<pm>	pm   plus-minus sign	pm   plus-minus sign   plus minus
+<mp>	mp   minus-or-plus sign	mp   minus-or-plus sign
+<times>	times   multiplication sign	times   multiplication sign   product prodotto
+<div>	div   division sign	div   division sign
+<ast>	ast   asterisk operator	ast   asterisk operator
+<star>	star   star operator	star   star operator
+<circ>	circ   ring operator	circ   ring operator   composition composizione
+<bullet>	bullet   bullet	bullet   bullet
+<cdot>	cdot   dot operator	cdot   dot operator   product prodotto
+<cap>	cap   intersection	cap   intersection   intersection intersezione
+<cup>	cup   union	cup   union   union unione
+<uplus>	uplus   multiset union	uplus   multiset union
+<sqcap>	sqcap   square cap	sqcap   square cap
+<sqcup>	sqcup   square cup	sqcup   square cup
+<vee>	vee   logical or	vee   logical or   or
+<wedge>	wedge   logical and	wedge   logical and   and
+<ltimes>	ltimes   left normal factor semidirect product	ltimes   left normal factor semidirect product
+<rtimes>	rtimes   right normal factor semidirect product	rtimes   right normal factor semidirect product
+<leftthreetimes>	leftthreetimes   left semidirect product	leftthreetimes   left semidirect product
+<rightthreetimes>	rightthreetimes   right semidirect product	rightthreetimes   right semidirect product
+<curlyvee>	curlyvee   curly logical or	curlyvee   curly logical or
+<curlywedge>	curlywedge   curly logical and	curlywedge   curly logical and
+<veebar>	veebar   xor	veebar   xor
+<barwedge>	barwedge   projective	barwedge   projective
+<leftarrow>	leftarrow   leftwards arrow	leftarrow   leftwards arrow
+<Leftarrow>	leftarrow   leftwards double arrow	leftarrow   leftwards double arrow
+<leftharpoonup>	leftharpoonup   leftwards harpoon with barb upwards	leftharpoonup   leftwards harpoon with barb upwards
+<leftharpoondown>	leftharpoondown   leftwards harpoon with barb downwards	leftharpoondown   leftwards harpoon with barb downwards
+<leftleftarrows>	leftleftarrows   leftwards paired arrows	leftleftarrows   leftwards paired arrows
+<leftarrowtail>	leftarrowtail   leftwards arrow with tail	leftarrowtail   leftwards arrow with tail
+<hookleftarrow>	hookleftarrow   leftwards arrow with hook	hookleftarrow   leftwards arrow with hook
+<looparrowleft>	looparrowleft   leftwards arrow with loop	looparrowleft   leftwards arrow with loop
+<twoheadleftarrow>	twoheadleftarrow   leftwards two headed arrow	twoheadleftarrow   leftwards two headed arrow
+<rightarrow>	rightarrow   rightwards arrow	rightarrow   rightwards arrow   to maps
+<Rightarrow>	rightarrow   rightwards double arrow	rightarrow   rightwards double arrow   implies implica
+<rightharpoonup>	rightharpoonup   rightwards harpoon with barb upwards	rightharpoonup   rightwards harpoon with barb upwards
+<rightharpoondown>	rightharpoondown   rightwards harpoon with barb downwards	rightharpoondown   rightwards harpoon with barb downwards
+<rightrightarrows>	rightrightarrows   rightwards paired arrows	rightrightarrows   rightwards paired arrows
+<rightarrowtail>	rightarrowtail   rightwards arrow with tail	rightarrowtail   rightwards arrow with tail
+<hookrightarrow>	hookrightarrow   rightwards arrow with hook	hookrightarrow   rightwards arrow with hook
+<looparrowright>	looparrowright   rightwards arrow with loop	looparrowright   rightwards arrow with loop
+<twoheadrightarrow>	twoheadrightarrow   rightwards two headed arrow	twoheadrightarrow   rightwards two headed arrow
+<leftrightarrow>	leftrightarrow   left right arrow	leftrightarrow   left right arrow
+<Leftrightarrow>	leftrightarrow   left right double arrow	leftrightarrow   left right double arrow   iff se e solo se equivalent
+<leftrightharpoons>	leftrightharpoons   leftwards harpoon over rightwards harpoon	leftrightharpoons   leftwards harpoon over rightwards harpoon
+<rightleftharpoons>	rightleftharpoons   rightwards harpoon over leftwards harpoon	rightleftharpoons   rightwards harpoon over leftwards harpoon
+<leftrightarrows>	leftrightarrows   leftwards arrow over rightwards arrow	leftrightarrows   leftwards arrow over rightwards arrow
+<rightleftarrows>	rightleftarrows   rightwards arrow over leftwards arrow	rightleftarrows   rightwards arrow over leftwards arrow
+<mapsto>	mapsto   rightwards arrow from bar	mapsto   rightwards arrow from bar   maps to
+<rightsquigarrow>	rightsquigarrow   rightwards wave arrow	rightsquigarrow   rightwards wave arrow
+<leftrightsquigarrow>	leftrightsquigarrow   left right wave arrow	leftrightsquigarrow   left right wave arrow
+<Lleftarrow>	lleftarrow   leftwards triple arrow	lleftarrow   leftwards triple arrow
+<Rrightarrow>	rrightarrow   rightwards triple arrow	rrightarrow   rightwards triple arrow
+<longleftarrow>	longleftarrow   long leftwards arrow	longleftarrow   long leftwards arrow
+<longrightarrow>	longrightarrow   long rightwards arrow	longrightarrow   long rightwards arrow
+<longleftrightarrow>	longleftrightarrow   long left right arrow	longleftrightarrow   long left right arrow
+<Longleftarrow>	longleftarrow   long leftwards double arrow	longleftarrow   long leftwards double arrow
+<Longrightarrow>	longrightarrow   long rightwards double arrow	longrightarrow   long rightwards double arrow   implies implica
+<Longleftrightarrow>	longleftrightarrow   long left right double arrow	longleftrightarrow   long left right double arrow   iff se e solo se equivalent
+<longmapsto>	longmapsto   long rightwards arrow from bar	longmapsto   long rightwards arrow from bar   maps to
+<uparrow>	uparrow   upwards arrow	uparrow   upwards arrow
+<Uparrow>	uparrow   upwards double arrow	uparrow   upwards double arrow
+<upuparrows>	upuparrows   upwards paired arrows	upuparrows   upwards paired arrows
+<upharpoonleft>	upharpoonleft   upwards harpoon with barb leftwards	upharpoonleft   upwards harpoon with barb leftwards
+<upharpoonright>	upharpoonright   upwards harpoon with barb rightwards	upharpoonright   upwards harpoon with barb rightwards
+<nwarrow>	nwarrow   north west arrow	nwarrow   north west arrow
+<nearrow>	nearrow   north east arrow	nearrow   north east arrow
+<updownarrow>	updownarrow   up down arrow	updownarrow   up down arrow
+<downarrow>	downarrow   downwards arrow	downarrow   downwards arrow
+<Downarrow>	downarrow   downwards double arrow	downarrow   downwards double arrow
+<downdownarrows>	downdownarrows   downwards paired arrows	downdownarrows   downwards paired arrows
+<downharpoonleft>	downharpoonleft   downwards harpoon with barb leftwards	downharpoonleft   downwards harpoon with barb leftwards
+<downharpoonright>	downharpoonright   downwards harpoon with barb rightwards	downharpoonright   downwards harpoon with barb rightwards
+<swarrow>	swarrow   south west arrow	swarrow   south west arrow
+<searrow>	searrow   south east arrow	searrow   south east arrow
+<Updownarrow>	updownarrow   up down double arrow	updownarrow   up down double arrow
+<mathd>	mathd   latin small letter d	mathd   latin small letter d
+<mathi>	mathi   latin small letter i	mathi   latin small letter i
+<mathe>	mathe   latin small letter e	mathe   latin small letter e
+<matheuler>	matheuler   greek small letter gamma	matheuler   greek small letter gamma
+<mathpi>	mathpi   greek small letter pi	mathpi   greek small letter pi
+<imath>	imath   latin small letter dotless i	imath   latin small letter dotless i
+<ell>	ell   script small l	ell   script small l
+<aleph>	aleph   alef symbol	aleph   alef symbol
+<beth>	beth   bet symbol	beth   bet symbol
+<gimel>	gimel   gimel symbol	gimel   gimel symbol
+<daleth>	daleth   dalet symbol	daleth   dalet symbol
+<Re>	re   black-letter capital r	re   black-letter capital r
+<Im>	im   black-letter capital i	im   black-letter capital i
+<Mho>	mho   inverted ohm sign	mho   inverted ohm sign
+<wp>	wp   script capital p	wp   script capital p
+<emptyset>	emptyset   empty set	emptyset   empty set   vuoto empty
+<varnothing>	varnothing   empty set	varnothing   empty set   vuoto empty
+<infty>	infty   infinity	infty   infinity   infinito
+<partial>	partial   partial differential	partial   partial differential   derivative derivata
+<nabla>	nabla   nabla	nabla   nabla   gradient gradiente
+<forall>	forall   for all	forall   for all   per ogni
+<exists>	exists   there exists	exists   there exists   esiste
+<neg>	neg   not sign	neg   not sign   not
+<top>	top   down tack	top   down tack
+<bot>	bot   up tack	bot   up tack
+<vdash>	vdash   right tack	vdash   right tack
+<Vdash>	vdash   forces	vdash   forces
+<Vvdash>	vvdash   triple vertical bar right turnstile	vvdash   triple vertical bar right turnstile
+<vDash>	vdash   true	vdash   true
+<dashv>	dashv   left tack	dashv   left tack
+<angle>	angle   angle	angle   angle
+<box>	box   white square	box   white square
+<diamond>	diamond   diamond operator	diamond   diamond operator
+<vartriangle>	vartriangle   white up-pointing small triangle	vartriangle   white up-pointing small triangle
+<clubsuit>	clubsuit   black club suit	clubsuit   black club suit
+<diamondsuit>	diamondsuit   black diamond suit	diamondsuit   black diamond suit
+<heartsuit>	heartsuit   black heart suit	heartsuit   black heart suit
+<spadesuit>	spadesuit   black spade suit	spadesuit   black spade suit
+<backslash>	backslash   reverse solidus	backslash   reverse solidus
+<flat>	flat   music flat sign	flat   music flat sign
+<natural>	natural   music natural sign	natural   music natural sign
+<sharp>	sharp   music sharp sign	sharp   music sharp sign
+<eighthnote>	eighthnote   eighth note	eighthnote   eighth note
+<quarternote>	quarternote   quarter note	quarternote   quarter note
+<halfnote>	halfnote   musical symbol half note	halfnote   musical symbol half note
+<fullnote>	fullnote   musical symbol whole note	fullnote   musical symbol whole note
+<twonotes>	twonotes   beamed eighth notes	twonotes   beamed eighth notes
+<sun>	sun   white sun with rays	sun   white sun with rays
+<leftmoon>	leftmoon   last quarter moon	leftmoon   last quarter moon
+<rightmoon>	rightmoon   first quarter moon	rightmoon   first quarter moon
+<earth>	earth   earth	earth   earth
+<male>	male   male sign	male   male sign
+<female>	female   female sign	female   female sign
+<maltese>	maltese   maltese cross	maltese   maltese cross
+<recorder>	recorder   telephone recorder	recorder   telephone recorder
+<phone>	phone   black telephone	phone   black telephone
+<ldots>	ldots   horizontal ellipsis	ldots   horizontal ellipsis   dots puntini
+<cdots>	cdots   midline horizontal ellipsis	cdots   midline horizontal ellipsis   dots puntini
+<vdots>	vdots   vertical ellipsis	vdots   vertical ellipsis
+<ddots>	ddots   down right diagonal ellipsis	ddots   down right diagonal ellipsis
+<udots>	udots   up right diagonal ellipsis	udots   up right diagonal ellipsis
+<nequiv>	nequiv   not identical to	nequiv   not identical to
+<nasymp>	nasymp   not equivalent to	nasymp   not equivalent to
+<nsim>	nsim   not tilde	nsim   not tilde
+<napprox>	napprox   not almost equal to	napprox   not almost equal to
+<nsimeq>	nsimeq   not asymptotically equal to	nsimeq   not asymptotically equal to
+<ncong>	ncong   neither approximately nor actually equal to	ncong   neither approximately nor actually equal to
+<nni>	nni   does not contain as member	nni   does not contain as member
+<nless>	nless   not less-than	nless   not less-than
+<nleq>	nleq   neither less-than nor equal to	nleq   neither less-than nor equal to
+<lneq>	lneq   less-than and single-line not equal to	lneq   less-than and single-line not equal to
+<lneqq>	lneqq   less-than but not equal to	lneqq   less-than but not equal to
+<lnsim>	lnsim   less-than but not equivalent to	lnsim   less-than but not equivalent to
+<lnapprox>	lnapprox   less-than and not approximate	lnapprox   less-than and not approximate
+<precneqq>	precneqq   precedes above not equal to	precneqq   precedes above not equal to
+<ngtr>	ngtr   not greater-than	ngtr   not greater-than
+<ngeq>	ngeq   neither greater-than nor equal to	ngeq   neither greater-than nor equal to
+<gneq>	gneq   greater-than and single-line not equal to	gneq   greater-than and single-line not equal to
+<gneqq>	gneqq   greater-than but not equal to	gneqq   greater-than but not equal to
+<gnsim>	gnsim   greater-than but not equivalent to	gnsim   greater-than but not equivalent to
+<gnapprox>	gnapprox   greater-than and not approximate	gnapprox   greater-than and not approximate
+<succneqq>	succneqq   succeeds above not equal to	succneqq   succeeds above not equal to
+<nprec>	nprec   does not precede	nprec   does not precede
+<npreccurlyeq>	npreccurlyeq   does not precede or equal	npreccurlyeq   does not precede or equal
+<precnsim>	precnsim   precedes but not equivalent to	precnsim   precedes but not equivalent to
+<precnapprox>	precnapprox   precedes above not almost equal to	precnapprox   precedes above not almost equal to
+<subsetneq>	subsetneq   subset of with not equal to	subsetneq   subset of with not equal to
+<subsetneqq>	subsetneqq   subset of above not equal to	subsetneqq   subset of above not equal to
+<nsucc>	nsucc   does not succeed	nsucc   does not succeed
+<nsucccurlyeq>	nsucccurlyeq   does not succeed or equal	nsucccurlyeq   does not succeed or equal
+<succnsim>	succnsim   succeeds but not equivalent to	succnsim   succeeds but not equivalent to
+<succnapprox>	succnapprox   succeeds above not almost equal to	succnapprox   succeeds above not almost equal to
+<supsetneq>	supsetneq   superset of with not equal to	supsetneq   superset of with not equal to
+<supsetneqq>	supsetneqq   superset of above not equal to	supsetneqq   superset of above not equal to
+<nsqsubseteq>	nsqsubseteq   not square image of or equal to	nsqsubseteq   not square image of or equal to
+<nsqsupseteq>	nsqsupseteq   not square original of or equal to	nsqsupseteq   not square original of or equal to
+<b-0>	b 0   mathematical bold digit zero	b 0   mathematical bold digit zero
+<b-1>	b 1   mathematical bold digit one	b 1   mathematical bold digit one
+<b-2>	b 2   mathematical bold digit two	b 2   mathematical bold digit two
+<b-3>	b 3   mathematical bold digit three	b 3   mathematical bold digit three
+<b-4>	b 4   mathematical bold digit four	b 4   mathematical bold digit four
+<b-5>	b 5   mathematical bold digit five	b 5   mathematical bold digit five
+<b-6>	b 6   mathematical bold digit six	b 6   mathematical bold digit six
+<b-7>	b 7   mathematical bold digit seven	b 7   mathematical bold digit seven
+<b-8>	b 8   mathematical bold digit eight	b 8   mathematical bold digit eight
+<b-9>	b 9   mathematical bold digit nine	b 9   mathematical bold digit nine
+<b-a>	b a   mathematical bold italic small a	b a   mathematical bold italic small a
+<b-b>	b b   mathematical bold italic small b	b b   mathematical bold italic small b
+<b-c>	b c   mathematical bold italic small c	b c   mathematical bold italic small c
+<b-d>	b d   mathematical bold italic small d	b d   mathematical bold italic small d
+<b-e>	b e   mathematical bold italic small e	b e   mathematical bold italic small e
+<b-f>	b f   mathematical bold italic small f	b f   mathematical bold italic small f
+<b-g>	b g   mathematical bold italic small g	b g   mathematical bold italic small g
+<b-h>	b h   mathematical bold italic small h	b h   mathematical bold italic small h
+<b-i>	b i   mathematical bold italic small i	b i   mathematical bold italic small i
+<b-j>	b j   mathematical bold italic small j	b j   mathematical bold italic small j
+<b-k>	b k   mathematical bold italic small k	b k   mathematical bold italic small k
+<b-l>	b l   mathematical bold italic small l	b l   mathematical bold italic small l
+<b-m>	b m   mathematical bold italic small m	b m   mathematical bold italic small m
+<b-n>	b n   mathematical bold italic small n	b n   mathematical bold italic small n
+<b-o>	b o   mathematical bold italic small o	b o   mathematical bold italic small o
+<b-p>	b p   mathematical bold italic small p	b p   mathematical bold italic small p
+<b-q>	b q   mathematical bold italic small q	b q   mathematical bold italic small q
+<b-r>	b r   mathematical bold italic small r	b r   mathematical bold italic small r
+<b-s>	b s   mathematical bold italic small s	b s   mathematical bold italic small s
+<b-t>	b t   mathematical bold italic small t	b t   mathematical bold italic small t
+<b-u>	b u   mathematical bold italic small u	b u   mathematical bold italic small u
+<b-v>	b v   mathematical bold italic small v	b v   mathematical bold italic small v
+<b-w>	b w   mathematical bold italic small w	b w   mathematical bold italic small w
+<b-x>	b x   mathematical bold italic small x	b x   mathematical bold italic small x
+<b-y>	b y   mathematical bold italic small y	b y   mathematical bold italic small y
+<b-z>	b z   mathematical bold italic small z	b z   mathematical bold italic small z
+<b-A>	b a   mathematical bold italic capital a	b a   mathematical bold italic capital a
+<b-B>	b b   mathematical bold italic capital b	b b   mathematical bold italic capital b
+<b-C>	b c   mathematical bold italic capital c	b c   mathematical bold italic capital c
+<b-D>	b d   mathematical bold italic capital d	b d   mathematical bold italic capital d
+<b-E>	b e   mathematical bold italic capital e	b e   mathematical bold italic capital e
+<b-F>	b f   mathematical bold italic capital f	b f   mathematical bold italic capital f
+<b-G>	b g   mathematical bold italic capital g	b g   mathematical bold italic capital g
+<b-H>	b h   mathematical bold italic capital h	b h   mathematical bold italic capital h
+<b-I>	b i   mathematical bold italic capital i	b i   mathematical bold italic capital i
+<b-J>	b j   mathematical bold italic capital j	b j   mathematical bold italic capital j
+<b-K>	b k   mathematical bold italic capital k	b k   mathematical bold italic capital k
+<b-L>	b l   mathematical bold italic capital l	b l   mathematical bold italic capital l
+<b-M>	b m   mathematical bold italic capital m	b m   mathematical bold italic capital m
+<b-N>	b n   mathematical bold italic capital n	b n   mathematical bold italic capital n
+<b-O>	b o   mathematical bold italic capital o	b o   mathematical bold italic capital o
+<b-P>	b p   mathematical bold italic capital p	b p   mathematical bold italic capital p
+<b-Q>	b q   mathematical bold italic capital q	b q   mathematical bold italic capital q
+<b-R>	b r   mathematical bold italic capital r	b r   mathematical bold italic capital r
+<b-S>	b s   mathematical bold italic capital s	b s   mathematical bold italic capital s
+<b-T>	b t   mathematical bold italic capital t	b t   mathematical bold italic capital t
+<b-U>	b u   mathematical bold italic capital u	b u   mathematical bold italic capital u
+<b-V>	b v   mathematical bold italic capital v	b v   mathematical bold italic capital v
+<b-W>	b w   mathematical bold italic capital w	b w   mathematical bold italic capital w
+<b-X>	b x   mathematical bold italic capital x	b x   mathematical bold italic capital x
+<b-Y>	b y   mathematical bold italic capital y	b y   mathematical bold italic capital y
+<b-Z>	b z   mathematical bold italic capital z	b z   mathematical bold italic capital z
+<b-up-a>	b up a   mathematical bold small a	b up a   mathematical bold small a
+<b-up-b>	b up b   mathematical bold small b	b up b   mathematical bold small b
+<b-up-c>	b up c   mathematical bold small c	b up c   mathematical bold small c
+<b-up-d>	b up d   mathematical bold small d	b up d   mathematical bold small d
+<b-up-e>	b up e   mathematical bold small e	b up e   mathematical bold small e
+<b-up-f>	b up f   mathematical bold small f	b up f   mathematical bold small f
+<b-up-g>	b up g   mathematical bold small g	b up g   mathematical bold small g
+<b-up-h>	b up h   mathematical bold small h	b up h   mathematical bold small h
+<b-up-i>	b up i   mathematical bold small i	b up i   mathematical bold small i
+<b-up-j>	b up j   mathematical bold small j	b up j   mathematical bold small j
+<b-up-k>	b up k   mathematical bold small k	b up k   mathematical bold small k
+<b-up-l>	b up l   mathematical bold small l	b up l   mathematical bold small l
+<b-up-m>	b up m   mathematical bold small m	b up m   mathematical bold small m
+<b-up-n>	b up n   mathematical bold small n	b up n   mathematical bold small n
+<b-up-o>	b up o   mathematical bold small o	b up o   mathematical bold small o
+<b-up-p>	b up p   mathematical bold small p	b up p   mathematical bold small p
+<b-up-q>	b up q   mathematical bold small q	b up q   mathematical bold small q
+<b-up-r>	b up r   mathematical bold small r	b up r   mathematical bold small r
+<b-up-s>	b up s   mathematical bold small s	b up s   mathematical bold small s
+<b-up-t>	b up t   mathematical bold small t	b up t   mathematical bold small t
+<b-up-u>	b up u   mathematical bold small u	b up u   mathematical bold small u
+<b-up-v>	b up v   mathematical bold small v	b up v   mathematical bold small v
+<b-up-w>	b up w   mathematical bold small w	b up w   mathematical bold small w
+<b-up-x>	b up x   mathematical bold small x	b up x   mathematical bold small x
+<b-up-y>	b up y   mathematical bold small y	b up y   mathematical bold small y
+<b-up-z>	b up z   mathematical bold small z	b up z   mathematical bold small z
+<b-up-A>	b up a   mathematical bold capital a	b up a   mathematical bold capital a
+<b-up-B>	b up b   mathematical bold capital b	b up b   mathematical bold capital b
+<b-up-C>	b up c   mathematical bold capital c	b up c   mathematical bold capital c
+<b-up-D>	b up d   mathematical bold capital d	b up d   mathematical bold capital d
+<b-up-E>	b up e   mathematical bold capital e	b up e   mathematical bold capital e
+<b-up-F>	b up f   mathematical bold capital f	b up f   mathematical bold capital f
+<b-up-G>	b up g   mathematical bold capital g	b up g   mathematical bold capital g
+<b-up-H>	b up h   mathematical bold capital h	b up h   mathematical bold capital h
+<b-up-I>	b up i   mathematical bold capital i	b up i   mathematical bold capital i
+<b-up-J>	b up j   mathematical bold capital j	b up j   mathematical bold capital j
+<b-up-K>	b up k   mathematical bold capital k	b up k   mathematical bold capital k
+<b-up-L>	b up l   mathematical bold capital l	b up l   mathematical bold capital l
+<b-up-M>	b up m   mathematical bold capital m	b up m   mathematical bold capital m
+<b-up-N>	b up n   mathematical bold capital n	b up n   mathematical bold capital n
+<b-up-O>	b up o   mathematical bold capital o	b up o   mathematical bold capital o
+<b-up-P>	b up p   mathematical bold capital p	b up p   mathematical bold capital p
+<b-up-Q>	b up q   mathematical bold capital q	b up q   mathematical bold capital q
+<b-up-R>	b up r   mathematical bold capital r	b up r   mathematical bold capital r
+<b-up-S>	b up s   mathematical bold capital s	b up s   mathematical bold capital s
+<b-up-T>	b up t   mathematical bold capital t	b up t   mathematical bold capital t
+<b-up-U>	b up u   mathematical bold capital u	b up u   mathematical bold capital u
+<b-up-V>	b up v   mathematical bold capital v	b up v   mathematical bold capital v
+<b-up-W>	b up w   mathematical bold capital w	b up w   mathematical bold capital w
+<b-up-X>	b up x   mathematical bold capital x	b up x   mathematical bold capital x
+<b-up-Y>	b up y   mathematical bold capital y	b up y   mathematical bold capital y
+<b-up-Z>	b up z   mathematical bold capital z	b up z   mathematical bold capital z
+<b-alpha>	b alpha   mathematical bold italic small alpha	b alpha   mathematical bold italic small alpha
+<b-beta>	b beta   mathematical bold italic small beta	b beta   mathematical bold italic small beta
+<b-gamma>	b gamma   mathematical bold italic small gamma	b gamma   mathematical bold italic small gamma
+<b-delta>	b delta   mathematical bold italic small delta	b delta   mathematical bold italic small delta
+<b-epsilon>	b epsilon   mathematical bold italic epsilon symbol	b epsilon   mathematical bold italic epsilon symbol
+<b-varepsilon>	b varepsilon   mathematical bold italic small epsilon	b varepsilon   mathematical bold italic small epsilon
+<b-zeta>	b zeta   mathematical bold italic small zeta	b zeta   mathematical bold italic small zeta
+<b-eta>	b eta   mathematical bold italic small eta	b eta   mathematical bold italic small eta
+<b-theta>	b theta   mathematical bold italic small theta	b theta   mathematical bold italic small theta
+<b-vartheta>	b vartheta   mathematical bold italic theta symbol	b vartheta   mathematical bold italic theta symbol
+<b-iota>	b iota   mathematical bold italic small iota	b iota   mathematical bold italic small iota
+<b-kappa>	b kappa   mathematical bold italic small kappa	b kappa   mathematical bold italic small kappa
+<b-lambda>	b lambda   mathematical bold italic small lamda	b lambda   mathematical bold italic small lamda
+<b-mu>	b mu   mathematical bold italic small mu	b mu   mathematical bold italic small mu
+<b-nu>	b nu   mathematical bold italic small nu	b nu   mathematical bold italic small nu
+<b-xi>	b xi   mathematical bold italic small xi	b xi   mathematical bold italic small xi
+<b-omicron>	b omicron   mathematical bold italic small omicron	b omicron   mathematical bold italic small omicron
+<b-pi>	b pi   mathematical bold italic small pi	b pi   mathematical bold italic small pi
+<b-varpi>	b varpi   mathematical bold italic pi symbol	b varpi   mathematical bold italic pi symbol
+<b-rho>	b rho   mathematical bold italic small rho	b rho   mathematical bold italic small rho
+<b-varrho>	b varrho   mathematical bold italic rho symbol	b varrho   mathematical bold italic rho symbol
+<b-sigma>	b sigma   mathematical bold italic small sigma	b sigma   mathematical bold italic small sigma
+<b-varsigma>	b varsigma   mathematical bold italic small final sigma	b varsigma   mathematical bold italic small final sigma
+<b-tau>	b tau   mathematical bold italic small tau	b tau   mathematical bold italic small tau
+<b-upsilon>	b upsilon   mathematical bold italic small upsilon	b upsilon   mathematical bold italic small upsilon
+<b-phi>	b phi   mathematical bold italic phi symbol	b phi   mathematical bold italic phi symbol
+<b-varphi>	b varphi   mathematical bold italic small phi	b varphi   mathematical bold italic small phi
+<b-chi>	b chi   mathematical bold italic small chi	b chi   mathematical bold italic small chi
+<b-psi>	b psi   mathematical bold italic small psi	b psi   mathematical bold italic small psi
+<b-omega>	b omega   mathematical bold italic small omega	b omega   mathematical bold italic small omega
+<b-Gamma>	b gamma   mathematical bold capital gamma	b gamma   mathematical bold capital gamma
+<b-Delta>	b delta   mathematical bold capital delta	b delta   mathematical bold capital delta
+<b-Theta>	b theta   mathematical bold capital theta	b theta   mathematical bold capital theta
+<b-Lambda>	b lambda   mathematical bold capital lamda	b lambda   mathematical bold capital lamda
+<b-Xi>	b xi   mathematical bold capital xi	b xi   mathematical bold capital xi
+<b-Pi>	b pi   mathematical bold capital pi	b pi   mathematical bold capital pi
+<b-Sigma>	b sigma   mathematical bold capital sigma	b sigma   mathematical bold capital sigma
+<b-Upsilon>	b upsilon   mathematical bold capital upsilon	b upsilon   mathematical bold capital upsilon
+<b-Phi>	b phi   mathematical bold capital phi	b phi   mathematical bold capital phi
+<b-Psi>	b psi   mathematical bold capital psi	b psi   mathematical bold capital psi
+<b-Omega>	b omega   mathematical bold capital omega	b omega   mathematical bold capital omega
+<frak-a>	frak a   mathematical fraktur small a	frak a   mathfrak a   mathematical fraktur small a
+<frak-b>	frak b   mathematical fraktur small b	frak b   mathfrak b   mathematical fraktur small b
+<frak-c>	frak c   mathematical fraktur small c	frak c   mathfrak c   mathematical fraktur small c
+<frak-d>	frak d   mathematical fraktur small d	frak d   mathfrak d   mathematical fraktur small d
+<frak-e>	frak e   mathematical fraktur small e	frak e   mathfrak e   mathematical fraktur small e
+<frak-f>	frak f   mathematical fraktur small f	frak f   mathfrak f   mathematical fraktur small f
+<frak-g>	frak g   mathematical fraktur small g	frak g   mathfrak g   mathematical fraktur small g
+<frak-h>	frak h   mathematical fraktur small h	frak h   mathfrak h   mathematical fraktur small h
+<frak-i>	frak i   mathematical fraktur small i	frak i   mathfrak i   mathematical fraktur small i
+<frak-j>	frak j   mathematical fraktur small j	frak j   mathfrak j   mathematical fraktur small j
+<frak-k>	frak k   mathematical fraktur small k	frak k   mathfrak k   mathematical fraktur small k
+<frak-l>	frak l   mathematical fraktur small l	frak l   mathfrak l   mathematical fraktur small l
+<frak-m>	frak m   mathematical fraktur small m	frak m   mathfrak m   mathematical fraktur small m
+<frak-n>	frak n   mathematical fraktur small n	frak n   mathfrak n   mathematical fraktur small n
+<frak-o>	frak o   mathematical fraktur small o	frak o   mathfrak o   mathematical fraktur small o
+<frak-p>	frak p   mathematical fraktur small p	frak p   mathfrak p   mathematical fraktur small p
+<frak-q>	frak q   mathematical fraktur small q	frak q   mathfrak q   mathematical fraktur small q
+<frak-r>	frak r   mathematical fraktur small r	frak r   mathfrak r   mathematical fraktur small r
+<frak-s>	frak s   mathematical fraktur small s	frak s   mathfrak s   mathematical fraktur small s
+<frak-t>	frak t   mathematical fraktur small t	frak t   mathfrak t   mathematical fraktur small t
+<frak-u>	frak u   mathematical fraktur small u	frak u   mathfrak u   mathematical fraktur small u
+<frak-v>	frak v   mathematical fraktur small v	frak v   mathfrak v   mathematical fraktur small v
+<frak-w>	frak w   mathematical fraktur small w	frak w   mathfrak w   mathematical fraktur small w
+<frak-x>	frak x   mathematical fraktur small x	frak x   mathfrak x   mathematical fraktur small x
+<frak-y>	frak y   mathematical fraktur small y	frak y   mathfrak y   mathematical fraktur small y
+<frak-z>	frak z   mathematical fraktur small z	frak z   mathfrak z   mathematical fraktur small z
+<frak-A>	frak a   mathematical fraktur capital a	frak a   mathfrak a   mathematical fraktur capital a
+<frak-B>	frak b   mathematical fraktur capital b	frak b   mathfrak b   mathematical fraktur capital b
+<frak-C>	frak c   black-letter capital c	frak c   mathfrak c   black-letter capital c
+<frak-D>	frak d   mathematical fraktur capital d	frak d   mathfrak d   mathematical fraktur capital d
+<frak-E>	frak e   mathematical fraktur capital e	frak e   mathfrak e   mathematical fraktur capital e
+<frak-F>	frak f   mathematical fraktur capital f	frak f   mathfrak f   mathematical fraktur capital f
+<frak-G>	frak g   mathematical fraktur capital g	frak g   mathfrak g   mathematical fraktur capital g
+<frak-H>	frak h   black-letter capital h	frak h   mathfrak h   black-letter capital h
+<frak-I>	frak i   black-letter capital i	frak i   mathfrak i   black-letter capital i
+<frak-J>	frak j   mathematical fraktur capital j	frak j   mathfrak j   mathematical fraktur capital j
+<frak-K>	frak k   mathematical fraktur capital k	frak k   mathfrak k   mathematical fraktur capital k
+<frak-L>	frak l   mathematical fraktur capital l	frak l   mathfrak l   mathematical fraktur capital l
+<frak-M>	frak m   mathematical fraktur capital m	frak m   mathfrak m   mathematical fraktur capital m
+<frak-N>	frak n   mathematical fraktur capital n	frak n   mathfrak n   mathematical fraktur capital n
+<frak-O>	frak o   mathematical fraktur capital o	frak o   mathfrak o   mathematical fraktur capital o
+<frak-P>	frak p   mathematical fraktur capital p	frak p   mathfrak p   mathematical fraktur capital p
+<frak-Q>	frak q   mathematical fraktur capital q	frak q   mathfrak q   mathematical fraktur capital q
+<frak-R>	frak r   black-letter capital r	frak r   mathfrak r   black-letter capital r
+<frak-S>	frak s   mathematical fraktur capital s	frak s   mathfrak s   mathematical fraktur capital s
+<frak-T>	frak t   mathematical fraktur capital t	frak t   mathfrak t   mathematical fraktur capital t
+<frak-U>	frak u   mathematical fraktur capital u	frak u   mathfrak u   mathematical fraktur capital u
+<frak-V>	frak v   mathematical fraktur capital v	frak v   mathfrak v   mathematical fraktur capital v
+<frak-W>	frak w   mathematical fraktur capital w	frak w   mathfrak w   mathematical fraktur capital w
+<frak-X>	frak x   mathematical fraktur capital x	frak x   mathfrak x   mathematical fraktur capital x
+<frak-Y>	frak y   mathematical fraktur capital y	frak y   mathfrak y   mathematical fraktur capital y
+<frak-Z>	frak z   black-letter capital z	frak z   mathfrak z   black-letter capital z

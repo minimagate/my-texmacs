@@ -1,0 +1,773 @@
+/****************************************************************************
+* my-texmacs light: the light twin of standard-dark.css (same layout, same
+* accent), for the Qt interface of TeXmacs 2.1.5. Used when Edit >
+* Preferences > General > User interface theme is "Bright", or "Default"
+* with macOS in Light Mode.
+*
+*   bars        #f2f2f2 (menus, main toolbar), #ebebeb (mode),
+*               #e6e6e6 (focus), lines between them #d0d0d0
+*   canvas      #a0a0a0 (fixed by TeXmacs for light themes)
+*   footer      #e6e6e6
+*   text        #1e1e1e, grey #6e6e6e
+*   buttons     #e2e2e2, hover #d4d4d4, down #c6c6c6
+*   fields      #ffffff, border #c2c2c2
+*   accent      #4260B4 (selected menu item, focus, default button)
+*
+* Menus and tooltips are separate windows: their corners stay square, since
+* a style sheet cannot make the outside of a rounded border transparent.
+****************************************************************************/
+
+/****************************************************************************
+* General
+****************************************************************************/
+
+QWidget {
+    background: #f2f2f2;
+    color: #1e1e1e;
+    font-family: "Fira Sans";
+    font-size: 14px;
+    icon-size: 16px;
+}
+
+QAbstractScrollArea, QTableView {
+    background: #a0a0a0;
+    border: none;
+}
+
+QFileDialog {
+    min-width: 800px;
+    min-height: 600px;
+}
+
+QFileDialog QAbstractScrollArea, QFileDialog QWidget::section {
+    background: #ffffff;
+}
+
+QToolTip {
+    font-size: 13px;
+    background: #ffffff;
+    color: #1e1e1e;
+    border: 1px solid #bdbdbd;
+    border-radius: 0px;
+    padding: 4px 6px;
+}
+
+/****************************************************************************
+* Toolbars
+****************************************************************************/
+
+QMenuBar, QMenuBar QWidget, #menuToolBar, #menuToolBar QWidget {
+    background: #f2f2f2;
+}
+
+QMenuBar, #menuToolBar {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    spacing: 6px;
+}
+
+QMenuBar::item {
+    background: #f2f2f2;
+    padding: 3px 8px;
+    border-radius: 6px;
+}
+
+MacosQMenuBar::item {
+    padding: 3px 8px;
+}
+
+QMenuBar::item:selected, QMenuBar::item:pressed {
+    background: #d4d4d4;
+}
+
+#mainToolBar, #modeToolBar, #focusToolBar, #userToolBar, #menuToolBar {
+    border: none;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+#toolbarSeparator {
+    border-left: 1px solid #d0d0d0;
+}
+
+QToolBar, #mainToolBar QWidget, #mainToolBar QToolButton {
+    background: #f2f2f2;
+}
+
+#modeToolBar, #modeToolBar QWidget, #modeToolBar QToolButton {
+    background: #ebebeb;
+}
+
+#focusToolBar, #focusToolBar QWidget, #focusToolBar QToolButton {
+    background: #e6e6e6;
+}
+
+#userToolBar, #userToolBar QWidget, #userToolBar QToolButton {
+    background: #e6e6e6;
+}
+
+QToolBar::separator {
+    background: #d0d0d0;
+    width: 1px;
+    margin: 6px 8px;
+}
+
+QStatusBar {
+    background: #e6e6e6;
+    color: #4a4a4a;
+    border: none;
+    border-top: 1px solid #d0d0d0;
+    padding: 2px 12px 2px 6px;
+}
+
+QStatusBar::item, QStatusBar QWidget {
+    background: #e6e6e6;
+    border: 0px;
+}
+
+QMainWindow::separator {
+    background: #d0d0d0;
+    width: 1px;
+    height: 1px;
+}
+
+/****************************************************************************
+* Menus
+****************************************************************************/
+
+QMenu {
+    background: #f2f2f2;
+    color: #1e1e1e;
+    border: 1px solid #cfcfcf;
+    border-radius: 0px;
+    padding: 4px;
+}
+
+QMenu::item {
+    background: transparent;
+    color: #1e1e1e;
+    padding: 4px 20px 4px 12px;
+    border-radius: 5px;
+}
+
+MingwQMenu::item {
+    padding-left: 15px;
+    padding-right: 12px;
+}
+
+QMenu::item * {
+    background: transparent;
+    margin: 3px;
+}
+
+QMenu::item * QToolTip {
+    background: #ffffff;
+}
+
+QMenu::item:selected {
+    background: #4260B4;
+    color: #FFFFFF;
+}
+
+QMenu::item:disabled {
+    background: transparent;
+    color: #6e6e6e;
+}
+
+QMenu::right-arrow {
+    border-image: url($TEXMACS_PATH/misc/pixmaps/modern/16x16/focus/tm_search_next_x4.png) 7 7 7 13;
+}
+
+QMenu::separator {
+    background: #cfcfcf;
+    height: 1px;
+    margin: 4px 8px;
+}
+
+/****************************************************************************
+* Line edit
+****************************************************************************/
+
+QLineEdit, QStatusBar QWidget QLineEdit, #focusToolBar QWidget QLineEdit, #userToolBar QWidget QLineEdit {
+    background: #ffffff;
+    color: #1e1e1e;
+    border: 1px solid #c2c2c2;
+    border-radius: 6px;
+    selection-color: #FFFFFF;
+    selection-background-color: #4260B4;
+    min-height: 16px;
+    padding: 1px 6px;
+}
+
+QLineEdit:focus, QStatusBar QWidget QLineEdit:focus, #focusToolBar QWidget QLineEdit:focus, #userToolBar QWidget QLineEdit:focus {
+    background: #ffffff;
+    border: 1px solid #4260B4;
+}
+
+/****************************************************************************
+* Lists
+****************************************************************************/
+
+QListView {
+    background: #ffffff;
+    border: 1px solid #c2c2c2;
+    border-radius: 6px;
+}
+
+QListView QAbstractScrollArea {
+    background: #ffffff;
+}
+
+QListView::item:hover {
+    background: #e6e6e6;
+}
+
+QListView::item:selected {
+    background: #4260B4;
+    color: #FFFFFF;
+}
+
+QComboBox {
+    background: #e2e2e2;
+    color: #1e1e1e;
+    selection-background-color: #4260B4;
+    selection-color: #FFFFFF;
+    padding: 3px 8px;
+    border: 0px;
+    border-radius: 6px;
+    min-height: 18px;
+}
+
+Qt4QComboBox {
+    margin: 3px;
+}
+
+QComboBox:hover {
+    background: #d4d4d4;
+}
+
+QComboBox:focus {
+    border: 1px solid #4260B4;
+}
+
+QComboBox::drop-down {
+    background: transparent;
+    border: 0px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+MingwQComboBox::drop-down {
+    padding-right: 10px;
+}
+
+QComboBox::down-arrow {
+    border-image: url($TEXMACS_PATH/misc/pixmaps/modern/16x16/focus/tm_similar_next_x4.png) 0 0 0 0 stretch stretch;
+}
+
+MingwQComboBox::down-arrow {
+    border-image: url("$TEXMACS_PATH/misc/pixmaps/modern/16x16/focus/tm_similar_next_x4.png") 7 7 7 7 stretch stretch;
+}
+
+QComboBox QAbstractItemView {
+    background: #f2f2f2;
+    color: #1e1e1e;
+    border: 1px solid #c2c2c2;
+    selection-background-color: #4260B4;
+    selection-color: #FFFFFF;
+}
+
+/****************************************************************************
+* Tabs
+****************************************************************************/
+
+QTabBar::tab {
+    background: #dcdcdc;
+    color: #6e6e6e;
+    margin-top: 2px;
+    padding: 4px 12px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+QTabBar::tab:hover {
+    background: #ebebeb;
+    color: #1e1e1e;
+}
+
+QTabBar::tab:selected {
+    background: #e6e6e6;
+    color: #1e1e1e;
+    margin-top: 0px;
+    padding: 4px 12px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+QTabWidget::pane {
+    background: #e6e6e6;
+    border: none;
+    margin-top: -1px;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+/****************************************************************************
+* Buttons
+****************************************************************************/
+
+QCheckBox, QCheckBox::indicator {
+    min-width: 10px;
+    min-height: 10px;
+}
+
+QCheckBox:focus {
+    border: 0px;
+    border-radius: 2px;
+}
+
+QPushButton {
+    background: #e2e2e2;
+    color: #1e1e1e;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+Qt4QPushButton {
+    margin: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+QPushButton:hover {
+    background: #d4d4d4;
+}
+
+QPushButton:pressed {
+    background: #c6c6c6;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+QPushButton:default {
+    background: #4260B4;
+    color: #FFFFFF;
+}
+
+QPushButton:focus {
+    border: 0px;
+}
+
+QToolButton,
+#mainToolBar QToolButton,
+#modeToolBar QToolButton {
+    padding-left: 1px;
+    padding-right: 1px;
+    border: none;
+}
+
+Qt4QToolButton {
+    background-color: rgba(96,96,96,0%);
+}
+
+QToolButton:hover,
+#mainToolBar QToolButton:hover,
+#modeToolBar QToolButton:hover,
+#focusToolBar QToolButton:hover,
+#userToolBar QToolButton:hover,
+#menuToolBar QToolButton:hover {
+    background: #d4d4d4;
+    border: 0px;
+    border-radius: 6px;
+}
+
+QToolButton:pressed,
+QToolButton:checked,
+#mainToolBar QToolButton:pressed,
+#mainToolBar QToolButton:checked,
+#modeToolBar QToolButton:pressed,
+#modeToolBar QToolButton:checked,
+#focusToolBar QToolButton:pressed,
+#focusToolBar QToolButton:checked,
+#userToolBar QToolButton:pressed,
+#userToolBar QToolButton:checked,
+#menuToolBar QToolButton:pressed,
+#menuToolBar QToolButton:checked
+{
+    background: #c6c6c6;
+    border: 0px;
+    border-radius: 6px;
+}
+
+QToolButton::menu-indicator,
+#mainToolBar QToolButton::menu-indicator,
+#modeToolBar QToolButton::menu-indicator {
+    border: none;
+    background: none;
+    image: none;
+}
+
+QToolButton::disabled,
+#mainToolBar QToolButton:disabled,
+#modeToolBar QToolButton:disabled {
+    color: #6e6e6e;
+}
+
+/****************************************************************************
+* Scrollbars: thin rounded handles on the canvas, as in the browser
+****************************************************************************/
+
+QScrollBar, QAbstractScrollArea::corner {
+    background: #a0a0a0;
+    border: none;
+}
+
+QScrollBar::handle {
+    background: rgba(64,64,64,40%);
+    border: 0px;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+QScrollBar::handle:hover {
+    background: rgba(48,48,48,55%);
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal,
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal,
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical,
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    border: none;
+    background: none;
+    height: 0px;
+    width: 0px;
+}
+
+QScrollBar:horizontal {
+    max-height: 14px;
+}
+
+QScrollBar::handle:horizontal {
+    min-width: 24px;
+}
+
+MingwQScrollBar::handle:horizontal {
+    margin: 2px 0px;
+}
+
+QScrollBar:vertical {
+    max-width: 14px;
+}
+
+QScrollBar::handle:vertical {
+    min-height: 24px;
+}
+
+MingwQScrollBar::handle:vertical {
+    margin: 0px 2px;
+}
+
+/****************************************************************************
+* Side tools
+****************************************************************************/
+
+QDockWidget#bottomTools::title,
+QDockWidget#leftTools::title,
+QDockWidget#sideTools::title {
+    background: #f2f2f2;
+    text-align: center;
+}
+
+QDockWidget#bottomTools QWidget#title,
+QDockWidget#leftTools QWidget#title,
+QDockWidget#sideTools QWidget#title {
+    background: #f2f2f2;
+    font-weight: bold;
+}
+
+QDockWidget#bottomTools QWidget#title *,
+QDockWidget#leftTools QWidget#title *,
+QDockWidget#sideTools QWidget#title * {
+    background: #f2f2f2;
+    font-weight: bold;
+    margin: 5px;
+}
+
+QDockWidget#bottomTools QWidget#subtitle,
+QDockWidget#leftTools QWidget#subtitle,
+QDockWidget#sideTools QWidget#subtitle {
+    font-weight: bold;
+}
+
+QDockWidget#bottomTools QWidget#subtitle *,
+QDockWidget#leftTools QWidget#subtitle *,
+QDockWidget#sideTools QWidget#subtitle * {
+    font-weight: bold;
+    margin: 5px;
+}
+
+QDockWidget#bottomTools QWidget#discrete *,
+QDockWidget#leftTools QWidget#discrete *,
+QDockWidget#sideTools QWidget#discrete * {
+    color: #4a4a4a;
+    font-size: 12px;
+}
+
+QDockWidget#bottomTools QWidget#plain QPushButton,
+QDockWidget#leftTools QWidget#plain QPushButton,
+QDockWidget#sideTools QWidget#plain QPushButton {
+    text-align: left;
+}
+
+QDockWidget#bottomTools QWidget#plain QPushButton,
+QDockWidget#leftTools QWidget#plain QPushButton,
+QDockWidget#sideTools QWidget#plain QPushButton,
+QDockWidget#bottomTools QWidget#discrete QPushButton,
+QDockWidget#leftTools QWidget#discrete QPushButton,
+QDockWidget#sideTools QWidget#discrete QPushButton {
+    background: none;
+    border: none;
+}
+
+QDockWidget#bottomTools QWidget#plain QPushButton:hover,
+QDockWidget#leftTools QWidget#plain QPushButton:hover,
+QDockWidget#sideTools QWidget#plain QPushButton:hover,
+QDockWidget#bottomTools QWidget#discrete QPushButton:hover,
+QDockWidget#leftTools QWidget#discrete QPushButton:hover,
+QDockWidget#sideTools QWidget#discrete QPushButton:hover {
+    background: #d4d4d4;
+    border: none;
+}
+
+QDockWidget#bottomTools QWidget#plain QPushButton:pressed,
+QDockWidget#leftTools QWidget#plain QPushButton:pressed,
+QDockWidget#sideTools QWidget#plain QPushButton:pressed,
+QDockWidget#bottomTools QWidget#discrete QPushButton:pressed,
+QDockWidget#leftTools QWidget#discrete QPushButton:pressed,
+QDockWidget#sideTools QWidget#discrete QPushButton:pressed {
+    background: #c6c6c6;
+    border: none;
+}
+
+QDockWidget#bottomTools QWidget#plain QPushButton:focus,
+QDockWidget#leftTools QWidget#plain QPushButton:focus,
+QDockWidget#sideTools QWidget#plain QPushButton:focus,
+QDockWidget#bottomTools QWidget#discrete QPushButton:focus,
+QDockWidget#leftTools QWidget#discrete QPushButton:focus,
+QDockWidget#sideTools QWidget#discrete QPushButton:focus {
+    border: 0px solid #c2c2c2;
+}
+
+/****************************************************************************
+* Tab bar with several options for sections
+****************************************************************************/
+
+QDockWidget#bottomTools QWidget#sections,
+QDockWidget#leftTools QWidget#sections,
+QDockWidget#sideTools QWidget#sections {
+    background: #dcdcdc;
+    color: #6e6e6e;
+    font-weight: bold;
+    border-top: 10px solid #dcdcdc;
+    border-bottom: 5px solid #f2f2f2;
+    padding: 0px;
+    margin: 0px;
+}
+
+QDockWidget#bottomTools QWidget#sections QPushButton,
+QDockWidget#leftTools QWidget#sections QPushButton,
+QDockWidget#sideTools QWidget#sections QPushButton {
+    background: #dcdcdc;
+    color: #6e6e6e;
+    font-weight: bold;
+    border: none;
+    border-top: 10px solid #dcdcdc;
+    border-bottom: 5px solid #f2f2f2;
+    border-radius: 0px;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+QDockWidget#bottomTools QWidget#sections QPushButton:hover,
+QDockWidget#leftTools QWidget#sections QPushButton:hover,
+QDockWidget#sideTools QWidget#sections QPushButton:hover {
+    background: #ebebeb;
+    color: #4a4a4a;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+QDockWidget#bottomTools QWidget#sections QPushButton:pressed,
+QDockWidget#leftTools QWidget#sections QPushButton:pressed,
+QDockWidget#sideTools QWidget#sections QPushButton:pressed {
+    background: #c6c6c6;
+    color: #4a4a4a;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+QDockWidget#bottomTools QWidget#sections QPushButton:focus,
+QDockWidget#leftTools QWidget#sections QPushButton:focus,
+QDockWidget#sideTools QWidget#sections QPushButton:focus {
+    border: 0px solid #c2c2c2;
+}
+
+QDockWidget#bottomTools QWidget#sections QWidget#active-section QPushButton:hover,
+QDockWidget#leftTools QWidget#sections QWidget#active-section QPushButton:hover,
+QDockWidget#sideTools QWidget#sections QWidget#active-section QPushButton:hover,
+QDockWidget#bottomTools QWidget#sections QWidget#active-section QPushButton:pressed,
+QDockWidget#leftTools QWidget#sections QWidget#active-section QPushButton:pressed,
+QDockWidget#sideTools QWidget#sections QWidget#active-section QPushButton:pressed {
+    background: #f2f2f2;
+    color: #1e1e1e;
+    border: none;
+    border-bottom: 10px solid #f2f2f2;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+/****************************************************************************
+* Sections with tab bars
+****************************************************************************/
+
+QDockWidget#bottomTools QWidget#section,
+QDockWidget#leftTools QWidget#section,
+QDockWidget#sideTools QWidget#section {
+    background: #f2f2f2;
+    font-weight: bold;
+}
+
+QDockWidget#bottomTools QWidget#section *,
+QDockWidget#leftTools QWidget#section *,
+QDockWidget#sideTools QWidget#section * {
+    background: #f2f2f2;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 3px;
+}
+
+QDockWidget#bottomTools QWidget#section-tabs,
+QDockWidget#leftTools QWidget#section-tabs,
+QDockWidget#sideTools QWidget#section-tabs {
+    background: #f2f2f2;
+    color: #6e6e6e;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+QDockWidget#bottomTools QWidget#section-tabs QPushButton,
+QDockWidget#leftTools QWidget#section-tabs QPushButton,
+QDockWidget#sideTools QWidget#section-tabs QPushButton {
+    background: #f2f2f2;
+    color: #6e6e6e;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px;
+    padding: 5px 8px;
+    margin: 0px;
+}
+
+QDockWidget#bottomTools QWidget#section-tabs QPushButton:hover,
+QDockWidget#leftTools QWidget#section-tabs QPushButton:hover,
+QDockWidget#sideTools QWidget#section-tabs QPushButton:hover {
+    background: #ebebeb;
+    color: #4a4a4a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+QDockWidget#bottomTools QWidget#section-tabs QPushButton:pressed,
+QDockWidget#leftTools QWidget#section-tabs QPushButton:pressed,
+QDockWidget#sideTools QWidget#section-tabs QPushButton:pressed {
+    background: #dcdcdc;
+    color: #4a4a4a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+QDockWidget#bottomTools QWidget#section-tabs QPushButton:focus,
+QDockWidget#leftTools QWidget#section-tabs QPushButton:focus,
+QDockWidget#sideTools QWidget#section-tabs QPushButton:focus {
+    border: 0px solid #c2c2c2;
+}
+
+QDockWidget#bottomTools QWidget#section-tabs QWidget#section-active-tab QPushButton,
+QDockWidget#leftTools QWidget#section-tabs QWidget#section-active-tab QPushButton,
+QDockWidget#sideTools QWidget#section-tabs QWidget#section-active-tab QPushButton {
+    background: #e6e6e6;
+    color: #1e1e1e;
+    font-weight: bold;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px 8px;
+    margin: 0px;
+}
+
+/****************************************************************************
+* my-texmacs: one size for every icon of the icon bar (the main and the mode
+* icons share it); the focus bar keeps its small icons
+****************************************************************************/
+
+QToolBar#mainToolBar {
+    qproperty-iconSize: 20px 20px;
+    padding: 0px 6px;
+}
+
+QToolBar#modeToolBar {
+    qproperty-iconSize: 20px 20px;
+}
+
+#mainToolBar QToolButton, #modeToolBar QToolButton {
+    padding: 3px;
+    margin: 0px 1px;
+}
+
+/****************************************************************************
+* my-texmacs: the symbol search palette (Cmd+K); its rows are buttons in the
+* classes my-texmacs-row and my-texmacs-hit (the highlighted one)
+****************************************************************************/
+
+#my-texmacs-row QPushButton, #my-texmacs-row QToolButton,
+#my-texmacs-hit QPushButton, #my-texmacs-hit QToolButton {
+    text-align: left;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    min-height: 22px;
+}
+
+#my-texmacs-row QPushButton, #my-texmacs-row QToolButton {
+    background: transparent;
+    color: #1e1e1e;
+}
+
+#my-texmacs-row QPushButton:hover, #my-texmacs-row QToolButton:hover {
+    background: #e2e2e2;
+}
+
+#my-texmacs-hit QPushButton, #my-texmacs-hit QToolButton {
+    background: #4260B4;
+    color: #FFFFFF;
+}
